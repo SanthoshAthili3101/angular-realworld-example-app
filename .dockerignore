@@ -1,0 +1,28 @@
+# Node modules (will be installed inside the container)
+node_modules
+# Build output
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+# OS files
+.DS_Store
+Thumbs.db
+# Git files
+.git
+.gitignore
+.gitattributes
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Environment and config files that should not be included in image context
+.env
+*.local
+# Dockerfile and docker-compose files if not needed in context
+Dockerfile
+docker-compose.yml
