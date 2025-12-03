@@ -1,5 +1,8 @@
 # Node modules (will be installed inside the container)
 node_modules
+dist
+
+*.md
 # Build output
 # Logs
 npm-debug.log
